@@ -6,6 +6,81 @@ Template:     generatepress
 Version:      1.0.0
 */
 
+
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 241, 163);
+    font-family: 'Courier New';
+}
+
+/* rubrikerna till sidovidgetterna */
+.wp-block-heading{
+    font-size: 24px;
+}
+/* search labeln i searchwidgetten */
+.wp-block-search__label{
+    font-size: 24px;
+}
+
+/* footer */
+#footer-widgets{
+    background-color: rgb(255, 137, 137);
+}
+
+.site-info{
+    background-color: rgb(255, 137, 137);
+}
+
+/* navigation knapparna */
+#masthead{
+    background-color: rgb(255, 137, 137);
+}
+
+/* navigation balkken */
+#site-navigation{
+    background-color: rgb(255, 137, 137);
+    
+}
+
+/* sidans tittel */
+.main-title{
+    font-size: 30px;
+}
+
+
+
+/* 1sta widget */
+#block-2{
+    background-color: rgb(226, 255, 193);
+}
+/* 2sta widget */
+#block-3{
+    background-color: rgb(255, 225, 192);
+}
+
+/* 3dje widget */
+#block-16{
+    background-color: rgb(249, 219, 255);
+}
+
+/* valda sidan i nav */
+[aria-current="page"]{
+    color: white !important;
+    text-decoration: underline overline !important;
+}
+
+/* nav knapparna */
+#primary-menu ul li a{
+    font-size: 20px !important;
+}
+
+/* nav knapp hover */
+#primary-menu ul li a:hover{
+    color: rgb(255, 208, 0) !important;
+    
+    
+}
+
+/* artiklarna */
+.inside-article{
+    background-color: rgb(255, 247, 213) !important;
 }
